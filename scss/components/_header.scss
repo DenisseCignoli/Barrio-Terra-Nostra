@@ -1,0 +1,28 @@
+    /* Nav */
+    .logo{height: 70px;margin-bottom: 5px;}
+    /* Fin Nav */
+    
+// _header.scss
+.background {
+    background-image: $form-bg-image;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 38rem;
+    width: 100%;
+    position: relative;
+    margin-bottom: 50px;
+
+    .Titulo {
+        text-align: center;
+        font-size: 27px;
+        color: $main-color;
+        background-color: $background-color;
+        padding: 15px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 8px;
+    }
+}

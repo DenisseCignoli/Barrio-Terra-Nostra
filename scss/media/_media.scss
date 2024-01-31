@@ -1,0 +1,59 @@
+// _media.scss
+@media screen and (max-width: 767px) {
+    .Fotobarrio {
+        height: auto;
+        width: 100%;
+        margin: 0;
+    }
+
+    .Section1 {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .ContenedorMain {
+        flex-direction: column;
+    }
+}
+
+// scss/media/_media-query-fotoilustrativa.scss
+
+@media screen and (max-width: 767px) {
+    .Fotoilustrativa {
+        width: 60%;
+        align-items: center;
+        margin-left: 20%;
+    }
+}
+
+// scss/media/_media-query-fotofondo.scss
+@media screen and (max-width: 767px) {
+    .fotofondo {
+        height: auto;
+        padding: 18px;
+    }
+
+    h3 {
+        width: 77%;
+    }
+
+    .mi-formulario {
+        width: 80%;
+    }
+
+    .mi-boton {
+        width: 95%;
+    }
+}
+
+// scss/media/_media-query-footer.scss
+@media (max-width: 991px) {
+    .footer-row {
+        text-align: center;
+    }
+
+    .footer-links {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
